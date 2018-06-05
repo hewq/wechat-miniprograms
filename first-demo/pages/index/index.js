@@ -50,5 +50,15 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  getTestData: function (e) {
+    console.log(e);
+    wx.request({
+      url: 'https://192.168.0.128:3000/',
+      method: "GET",
+      success: function (res) {
+        console.log(res);
+      }
+    })
   }
 })
