@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="section">
+  <view class="section__title">视图容器</view>
+  <view class="flex-wrp" style="flex-direction: row;">
+    <view class="flex-item"><navigator url="../view/view">view</navigator></view>
+    <view class="flex-item"><navigator url="../scroll-view/scroll-view">scroll-view</navigator></view>
+    <view class="flex-item">3</view>
+  </view>
+</view>

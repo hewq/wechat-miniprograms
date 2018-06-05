@@ -1,0 +1,49 @@
+/**app.wxss**/
+/**index.wxss**/
+.flex-wrp {
+  display: flex;
+}
+
+.section {
+  width: 100%;
+}
+
+.hoverclass1 {
+  width: 80%;
+}
+
+.section__title {
+  width: 100%;
+  height: 30px;
+  background: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+}
+
+.bc_green {
+  background: #0f0;
+}
+
+.bc_red {
+  background: #f00;
+}
+
+.bc_blue {
+  background: #00f;
+}
+
+.bc_yellow {
+  background: yellow;
+}
+
+.hoverclass {
+  color: #00f;
+}

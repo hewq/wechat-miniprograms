@@ -1,0 +1,8 @@
+.scroll-view-item {
+  height: 200px;
+}
+
+.scroll-view-item_H {
+  width: 100%;
+  flex-direction: column;
+}
