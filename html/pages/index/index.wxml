@@ -4,6 +4,10 @@
   <view class="flex-wrp" style="flex-direction: row;">
     <view class="flex-item"><navigator url="../view/view">view</navigator></view>
     <view class="flex-item"><navigator url="../scroll-view/scroll-view">scroll-view</navigator></view>
-    <view class="flex-item">3</view>
+    <view class="flex-item"><navigator url="../swiper/swiper">swiper</navigator></view>
+  <view class="flex-item"><navigator url="../movable-view/movable-view">movable</navigator></view>
+</view>
+<view class="section">
+  <view class="flex-item"><navigator url="../cover-view/cover-view">cover-view</navigator></view>
   </view>
 </view>
