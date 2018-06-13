@@ -10,7 +10,8 @@
     "pages/icon/icon",
     "pages/text/text",
     "pages/rich-text/rich-text",
-    "pages/progress/progress"
+    "pages/progress/progress",
+    "pages/button/button"
   ],
   "window":{
     "backgroundTextStyle":"light",
