@@ -2,12 +2,39 @@
 <view class="section">
   <view class="section__title">视图容器</view>
   <view class="flex-wrp" style="flex-direction: row;">
-    <view class="flex-item"><navigator url="../view/view">view</navigator></view>
-    <view class="flex-item"><navigator url="../scroll-view/scroll-view">scroll-view</navigator></view>
-    <view class="flex-item"><navigator url="../swiper/swiper">swiper</navigator></view>
-  <view class="flex-item"><navigator url="../movable-view/movable-view">movable</navigator></view>
+    <view class="flex-item">
+      <navigator url="../view/view">view</navigator>
+    </view>
+    <view class="flex-item">
+      <navigator url="../scroll-view/scroll-view">scroll-view</navigator>
+    </view>
+    <view class="flex-item">
+      <navigator url="../swiper/swiper">swiper</navigator>
+    </view>
+    <view class="flex-item">
+      <navigator url="../movable-view/movable-view">movable</navigator>
+    </view>
+  </view>
+  <view class="flex-wrp" style="flex-direction: row;">
+    <view class="flex-item">
+      <navigator url="../cover-view/cover-view">cover-view</navigator>
+    </view>
+  </view>
 </view>
 <view class="section">
-  <view class="flex-item"><navigator url="../cover-view/cover-view">cover-view</navigator></view>
-  </view>
+  <view class="section__title">基础内容</view>
+    <view class="flex-wrp" style="flex-direction: row;">
+      <view class="flex-item">
+        <navigator url="../icon/icon">icon</navigator>
+      </view>
+      <view class="flex-item">
+        <navigator url="../text/text">text</navigator>
+      </view>
+      <view class="flex-item">
+        <navigator url="../rich-text/rich-text">rich-text</navigator>
+      </view>
+      <view class="flex-item">
+        <navigator url="../progress/progress">progress</navigator>
+      </view>
+    </view>
 </view>
