@@ -38,3 +38,11 @@
       </view>
     </view>
 </view>
+<view class="section">
+  <view class="section__title">表单组件</view>
+    <view class="flex-wrp" style="flex-direction: row;">
+      <view class="flex-item">
+        <navigator url="../button/button">button</navigator>
+      </view>
+    </view>
+</view>

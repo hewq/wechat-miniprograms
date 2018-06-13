@@ -1,0 +1,9 @@
+/** 修改 button 默认的点击态样式 **/
+.button-hover {
+  background-color: red;
+}
+
+/** 添加自定义 button 点击态样式类 **/
+.other-button-hover {
+  background-color: blue;
+}
