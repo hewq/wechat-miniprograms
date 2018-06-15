@@ -44,5 +44,14 @@
       <view class="flex-item">
         <navigator url="../button/button">button</navigator>
       </view>
+      <view class="flex-item">
+        <navigator url="../checkbox/checkbox">checkbox</navigator>
+      </view>
+      <view class="flex-item">
+        <navigator url="../form/form">form</navigator>
+      </view>
+      <view class="flex-item">
+        <navigator url="../input/input">input</navigator>
+      </view>
     </view>
 </view>
