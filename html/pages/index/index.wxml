@@ -54,4 +54,12 @@
         <navigator url="../input/input">input</navigator>
       </view>
     </view>
+    <view class="flex-wrp" style="flex-direction: row;">
+      <view class="flex-item">
+        <navigator url="../label/label">label</navigator>
+      </view>
+      <view class="flex-item">
+        <navigator url="../picker/picker">picker</navigator>
+      </view>
+    </view>
 </view>

@@ -14,7 +14,9 @@
     "pages/button/button",
     "pages/checkbox/checkbox",
     "pages/form/form",
-    "pages/input/input"
+    "pages/input/input",
+    "pages/picker/picker",
+    "pages/label/label"
   ],
   "window":{
     "backgroundTextStyle":"light",
