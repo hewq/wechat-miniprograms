@@ -61,5 +61,8 @@
       <view class="flex-item">
         <navigator url="../picker/picker">picker</navigator>
       </view>
+      <view class="flex-item">
+        <navigator url="../picker-view/picker-view">picker-view</navigator>
+      </view>
     </view>
 </view>
