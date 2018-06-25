@@ -64,5 +64,19 @@
       <view class="flex-item">
         <navigator url="../picker-view/picker-view">picker-view</navigator>
       </view>
+      <view class="flex-item">
+        <navigator url="../radio/radio">radio</navigator>
+      </view>
+    </view>
+    <view class="flex-wrp" style="flex-direction: row;">
+      <view class="flex-item">
+        <navigator url="../slider/slider">label</navigator>
+      </view>
+      <view class="flex-item">
+        <navigator url="../switch/switch">switch</navigator>
+      </view>
+      <view class="flex-item">
+        <navigator url="../textarea/textarea">textarea</navigator>
+      </view>
     </view>
 </view>

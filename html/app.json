@@ -17,7 +17,11 @@
     "pages/input/input",
     "pages/picker/picker",
     "pages/label/label",
-    "pages/picker-view/picker-view"
+    "pages/picker-view/picker-view",
+    "pages/radio/radio",
+    "pages/slider/slider",
+    "pages/switch/switch",
+    "pages/textarea/textarea"
   ],
   "window":{
     "backgroundTextStyle":"light",
