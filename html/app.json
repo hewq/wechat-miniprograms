@@ -21,7 +21,13 @@
     "pages/radio/radio",
     "pages/slider/slider",
     "pages/switch/switch",
-    "pages/textarea/textarea"
+    "pages/textarea/textarea",
+    "pages/navigator/navigator",
+    "pages/sample/sample",
+    "pages/redirect/redirect",
+    "pages/nav-functional/nav-functional",
+    "pages/audio/audio",
+    "pages/image/image"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -80,3 +80,20 @@
       </view>
     </view>
 </view>
+<view class="section">
+  <view class="section__title">导航</view>
+  <view class="flex-wrp" style="flex-direction: row;">
+    <view class="flex-item">
+      <navigator url="../sample/sample">navigator</navigator>
+    </view>
+    <view class="flex-item">
+      <navigator url="../nav-functional/nav-functional">nav-func</navigator>
+    </view>
+    <view class="flex-item">
+      <navigator url="../audio/audio">audio</navigator>
+    </view>
+    <view class="flex-item">
+      <navigator url="../image/image">image</navigator>
+    </view>
+  </view>
+</view>
