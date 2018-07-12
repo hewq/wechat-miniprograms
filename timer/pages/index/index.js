@@ -129,7 +129,7 @@ Page({
   },
 
   saveLog: function (log) {
-    var logs = wx.getStorageSync('logs') && []
+    var logs = wx.getStorageSync('logs') || []
     logs.unshift(log)
     wx.setStorageSync('logs', logs)
   }
