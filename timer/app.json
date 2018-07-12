@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/wechat.png",
+      "selectedIconPath": "images/wechatHL.png",
+      "text": "主页"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "images/wechat.png",
+      "selectedIconPath": "images/wechatHL.png",
+      "text": "记录"
+    }, {
+      "pagePath": "pages/setting/setting",
+      "iconPath": "images/wechat.png",
+      "selectedIconPath": "images/wechatHL.png",
+      "text": "设置"
+    }]
+  }
+}

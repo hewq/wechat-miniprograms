@@ -1,0 +1,21 @@
+<view class="container timer {{isRunning ? 'timer-running' : ''}}">
+  <view class="timer-main">
+    <view class="timer-time-wrap">
+      <view class="timer-progress-mask"></view>
+      <view class="timer-progress timer-left">
+        <view class="timer-circle timer-circle-left" style="transform: rotate({{leftDeg}}deg);"></view>
+      </view>
+      <view class="timer-progress timer-right">
+        <view class="timer-circle timer-circle-right" style="transform: rotate({{rightDeg}}deg);"></view>
+      </view>
+      <text wx:if="{{!completed}}" class="timer-time">{{remainTimeText}}</text>
+      <text wx:if="{{isRunning}}" animation="{{nameAnimation}}" class="timer-taskname">{{taskName}}{{completed ? 'completed' : 'ing...'}}</text>
+      <image wx:if="{{completed}}" class="timer-done" src="../../images/complete.png"></image>
+    </view>
+    <input type="text" placeholder-style="text-align: center" class="timer-inputname" bindinput="changeLogName" placeholder="name for your task" />
+  </view>
+  <view class="timer-footer">
+    <view bindtap="startTimer" data-type="work" class="timer-ctrl {{isRunning && timerType == 'rest' ? 'hide' : ''}}">{{isRunning ? 'completed' : 'working'}}</view>
+    <view bindtap="startTimer" data-type="rest" class="timer-ctrl {{isRunning && timerType == 'work' ? 'hide' : ''}}">{{isRunning ? 'completed' : 'rest'}}</view>
+  </view>
+</view>
