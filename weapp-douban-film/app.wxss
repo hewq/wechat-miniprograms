@@ -1,0 +1,119 @@
+page {
+  height: 100%；
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.hide {
+  display: none!important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: "Helverica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.film-item {
+  padding: 10px;
+  display: flex;
+}
+
+.film-image {
+  width: 128px;
+}
+
+.film-image image {
+  width: 100%;
+  height: 180px；
+}
+
+.film-info {
+  padding-left: 10px;
+  flex: 1;
+}
+
+.film-info view {
+  margin-bottom: 10px;
+}
+
+.film-info .label {
+  margin-right: 5px;
+  color: #666;
+}
+
+.film-info .rating {
+  color: #e09015;
+}
+
+.film-title {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.film-year {
+  font-size: 16px;
+  color: #999;
+}
+
+.person {
+  margin-right: 5px;
+}
+
+.page-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: #666;
+}
+
+.page-loading .loading-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.weui-loading {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-animation: weuiLoading 1s steps(12, end) infinite;
+  animation: weuiLoading 1s steps(12,end) infinite;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iciIgd2lkdGg9JzEyMHB4JyBoZWlnaHQ9JzEyMHB4JyB4bWxucz0iaHR0cDovL3d3dy5);
+  background-size: 100%;
+}
+
+.load-more-wrap {
+  text-align: center;
+  padding: 10px 20px 20px 20px;
+}
+
+.load-content {
+  padding: 5px;
+  color: #666;
+}
+
+.btn-load-more text {
+  display: block;
+  padding: 5px;
+  border-radius: 3px;
+  background: #e6e6e6;
+  color: #666;
+  text-align: center;
+}
