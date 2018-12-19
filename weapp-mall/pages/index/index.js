@@ -29,7 +29,6 @@ Page({
   onShow: function () {
     let that = this
     let userInfo = wx.getStorageSync('userInfo');
-    console.log(userInfo);
     if (!userInfo) {
       wx.navigateTo({
         url: '/pages/authorize/index',
