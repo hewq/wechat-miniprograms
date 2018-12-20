@@ -6,7 +6,8 @@
     "pages/start/start",
     "pages/shop-car/index",
     "pages/my/index",
-    "pages/score-excharge/index"
+    "pages/score-excharge/index",
+    "pages/order-list/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
