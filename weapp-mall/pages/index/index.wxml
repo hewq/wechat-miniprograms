@@ -16,7 +16,7 @@
         <view class='confirm-btn' bindtap='goToStart'>
           <text>进入店铺</text>
         </view>
-        <text class='copyright'>https://github.com/hewq 个人学习测试项目</text>
+        <text class='copyright'>https://github.com/hewq 个人项目</text>
       </view>
     </view>
   </block>

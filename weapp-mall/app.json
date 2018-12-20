@@ -5,7 +5,8 @@
     "pages/authorize/index",
     "pages/start/start",
     "pages/shop-car/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/score-excharge/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

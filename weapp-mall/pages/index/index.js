@@ -28,6 +28,7 @@ Page({
   },
   onShow: function () {
     let that = this
+    // wx.removeStorageSync('userInfo');
     let userInfo = wx.getStorageSync('userInfo');
     if (!userInfo) {
       wx.navigateTo({

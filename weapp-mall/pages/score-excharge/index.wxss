@@ -1,0 +1,66 @@
+/* pages/score-excharge/index.wxss */
+page {
+  height: 100%;
+}
+
+.container {
+  background-color: #f5f5f9;
+  justify-content: initial;
+}
+
+.form-box {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+
+.row-wrap {
+  width: 720rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-left: 20rpx;
+  border-bottom: 1rpx solid #eee;
+  display: flex;
+  font-size: 28rpx;
+}
+
+.row-wrap .label {
+  width: 160rpx;
+  color: #000;
+}
+
+.row-wrap .label-right {
+  flex: 1;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+
+.row-wrap .label-right input {
+  height: 100%;
+  font-size: 28rpx;
+  padding-right: 30rpx;
+}
+
+.row-wrap .right-box {
+  margin-right: 30rpx;
+}
+
+.save-btn, .cancel-btn {
+  width: 690rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  margin-top: 30rpx;
+  border-radius: 6rpx;
+  box-sizing: border-box;
+}
+
+.save-btn {
+  background-color: #e64340;
+  color: #fff;
+}
+
+button[type='default'] {
+  background-color: #fff;
+  color: #000;
+}
