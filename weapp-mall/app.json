@@ -7,7 +7,9 @@
     "pages/shop-car/index",
     "pages/my/index",
     "pages/score-excharge/index",
-    "pages/order-list/index"
+    "pages/order-list/index",
+    "pages/select-address/index",
+    "pages/address-add/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
