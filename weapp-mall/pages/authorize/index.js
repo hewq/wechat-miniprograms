@@ -65,6 +65,7 @@ Page({
     let that = this;
     let token = wx.getStorageSync('token');
     if (token) {
+      console.log('check token');
       wx.request({
         url: 'https://www.killsun.com/user/check-token',
         data: {

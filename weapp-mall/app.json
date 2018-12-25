@@ -9,7 +9,8 @@
     "pages/score-excharge/index",
     "pages/order-list/index",
     "pages/select-address/index",
-    "pages/address-add/index"
+    "pages/address-add/index",
+    "pages/mycoupons/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

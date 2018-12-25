@@ -15,8 +15,8 @@
   </view>
   <view class='my-item' style='background: none; display: flex;'>
     <view>当前积分 {{score}} </view>
-    <button wx:if='{{score_sign_continuous == 0}}' style='height: 80rpx; margin-right: 70rpx;' bindtap='scoresign'>每日签到</button>
-    <button wx:if='{{score_sign_continuous > 0}}' disabled='true' style='height: 80rpx; margin-right: 70rpx;'>已连续{{score_sign_continuous}}天签到</button>
+    <button wx:if='{{score_sign_continuous == 0}}' style='height: 80rpx; margin-top: 10rpx; margin-right: 70rpx; text-align: center; line-height: 80rpx;' bindtap='scoresign'>每日签到</button>
+    <button wx:if='{{score_sign_continuous > 0}}' disabled='true' style='height: 80rpx; margin-top: 10rpx; margin-right: 70rpx; text-align: center; line-height: 80rpx;'>已连续{{score_sign_continuous}}天签到</button>
   </view>
   <view class='my-item'>
     <navigator url="/pages/score-excharge/index" hover-class='navigator-hover'>积分兑换</navigator>
@@ -37,7 +37,7 @@
     {{userMobile}}
   </view>
   <view style='height: 20rpx; background: #eee; width: 100%;'></view>
-  <view class='about' bindtap='abouts'>关于我们</view>
+  <view class='about' bindtap='aboutUs'>关于我们</view>
   <view style='height: 20rpx; background: #eee; width: 100%;'></view>
   <view class='my-item' style='border: none; padding: 0; margin: 0; background: none; border: none; heigth: auto; line-height: auto;'>
     <button type='warn' bindtap='relogin'>重新授权登录</button>
