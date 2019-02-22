@@ -1,0 +1,22 @@
+/* pages/pre-doc/index.wxss */
+.container {
+  min-height: 100%;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.my-item {
+  width: 100%;
+  border-bottom: 1rpx solid #eee;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 10rpx;
+}
+
+.my-item2 {
+  width: 100%;
+  border-bottom: 1rpx solid #eee;
+  height: 1000rpx;
+  line-height: 100rpx;
+  padding-left: 10rpx;
+}

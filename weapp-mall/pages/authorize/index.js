@@ -65,14 +65,13 @@ Page({
     let that = this;
     let token = wx.getStorageSync('token');
     if (token) {
-      console.log('check token');
       wx.request({
-        url: 'https://www.killsun.com/user/check-token',
+        url: 'https://www.killsun.com/mall/check-token',
         data: {
           token: token
         },
         success: function (res) {
-          if (res.data.code != 0) {
+          if (res.data.code != 1) {
             wx.removeStorageSync('token');
             that.login();
           } else {

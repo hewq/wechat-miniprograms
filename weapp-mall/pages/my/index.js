@@ -91,7 +91,7 @@ Page({
   getUserApiInfo: function () {
     let that = this;
     wx.request({
-      url: 'https://www.killsun.com/mall/user/detail',
+      url: 'https://www.killsun.com/mall/user/amount',
       data: {
         token: wx.getStorageSync('token')
       },
@@ -99,9 +99,9 @@ Page({
         if (res.data.code === 1) {
           let _data = {};
           _data.apiUserInfoMap = res.data.data;
-          if (res.data.data.base.mobile) {
-            _data.userMobile = res.data.data.base.mobile
-          }
+          // if (res.data.data.base.mobile) {
+          //   _data.userMobile = res.data.data.base.mobile
+          // }
           that.setData(_data);
         }
       }
@@ -133,9 +133,7 @@ Page({
         token: wx.getStorageSync('token')
       },
       success: function (res) {
-        console.log(res);
         if (res.data.code === 1) { 
-          console.log(res.data.continuous);
           that.setData({
             score_sign_continuous: res.data.continuous
           })

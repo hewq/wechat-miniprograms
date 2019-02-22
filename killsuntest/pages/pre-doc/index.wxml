@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='my-item'>
+    <button style='height: 80rpx; margin-top: 10rpx; margin-right: 70rpx; text-align: center; line-height: 80rpx;' bindtap='readppt'>查看ppt</button>
+  </view>
+  <view class='my-item2'>
+    <web-view src="https://www.killsun.com/public/files/pdf/test.pdf"></web-view>
+  </view>
+</view>

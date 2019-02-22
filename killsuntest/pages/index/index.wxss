@@ -1,0 +1,16 @@
+/**index.wxss**/
+.container {
+  min-height: 100%;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.my-item {
+  width: 100%;
+  background: url(https://www.killsun.com/public/img_wxapp/mall/arrow-right.png) no-repeat 700rpx center;
+  background-size: 16rpx auto, 750rpx auto;
+  border-bottom: 1rpx solid #eee;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 10rpx;
+}

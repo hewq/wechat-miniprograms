@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='my-item'>
+    <navigator url="/pages/pre-doc/index" hover-class='navigator-hover'>预览文档</navigator>
+  </view>
+</view>
