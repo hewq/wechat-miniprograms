@@ -94,7 +94,7 @@ Page({
   initShippingAddress: function () {
     let that = this;
     wx.request({
-      url: 'https://www.killsun.com/mall/shipping-address/list',
+      url: 'https://www.killsun.com/mall/user/shipping-address/list',
       data: {
         token: wx.getStorageSync('token')
       },

@@ -85,7 +85,7 @@ Page({
     wx.login({
       success: function (res) {
         wx.request({
-          url: 'https://www.killsun.com/user/wxapp/login',
+          url: 'https://www.killsun.com/mall/user/wxapp/login',
           data: {
             code: res.code
           },

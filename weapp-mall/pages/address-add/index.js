@@ -29,7 +29,7 @@ Page({
       // 初始化原数据
       wx.showLoading();
       wx.request({
-        url: 'https://www.killsun.com/mall/shipping-address/detail',
+        url: 'https://www.killsun.com/mall/user/shipping-address/detail',
         data: {
           token: wx.getStorageSync('token'),
           id: id
@@ -184,7 +184,7 @@ Page({
     }
 
     wx.request({
-      url: 'https://www.killsun.com/mall/shipping-address/' + apiAddoRuPDATE,
+      url: 'https://www.killsun.com/mall/user/shipping-address/' + apiAddoRuPDATE,
       data: {
         token: wx.getStorageSync('token'),
         id: apiAddid,
@@ -304,7 +304,7 @@ Page({
       success: function (res) {
         if (res.confirm) {
           wx.request({
-            url: 'https://www.killsun.com/mall/shipping-address/delete',
+            url: 'https://www.killsun.com/mall/user/shipping-address/delete',
             data: {
               token: wx.getStorageSync('token'),
               id: id
