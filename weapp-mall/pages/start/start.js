@@ -108,7 +108,7 @@ Page({
             activeCategoryId: 0,
             curPage: 1
           });
-          // that.getGoodsList(0);
+          that.getGoodsList(0);
         }
       }
     })
@@ -274,7 +274,7 @@ Page({
     this.setData({
       curPage: 1
     });
-    // this.getGoodsList(this.data.activeCategoryId);
+    this.getGoodsList(this.data.activeCategoryId);
   },
   onReachBottom: function () {
     this.setData({

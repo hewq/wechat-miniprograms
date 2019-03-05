@@ -10,7 +10,8 @@
     "pages/order-list/index",
     "pages/select-address/index",
     "pages/address-add/index",
-    "pages/mycoupons/index"
+    "pages/mycoupons/index",
+    "pages/goods-details/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
