@@ -76,7 +76,7 @@
         </view>
         <view class="shop-cart-btn" bindtap="goShopCar">
             <view class="shop-num">({{shopNum}})</view>
-            <view style='position:absolute;bottom:10rpx;'> 购物车 </view>
+            <view style='position:absolute;left: 40rpx; bottom:10rpx;'> 购物车 </view>
         </view>
         <view wx:if="{{!goodsDetail.basicInfo.pingtuan}}" class="join-shop-cart" bindtap="toAddShopCar">加入购物车</view>
         <view wx:if="{{!goodsDetail.basicInfo.pingtuan}}" class="now-buy" bindtap="tobuy">立即购买</view>
