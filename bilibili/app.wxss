@@ -1,3 +1,19 @@
+@import "./styles/fontawesome.wxss";
+
 page, view, image, swiper, swiper-item, navigator, video {
   box-sizing: border-box;
+}
+
+
+/*增加`fa`样式*/
+.fa {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
 }

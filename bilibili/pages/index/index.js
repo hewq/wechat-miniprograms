@@ -9,7 +9,9 @@ Page({
     // 首页导航数据
     navList: [],
     // 轮播图数据
-    swiperList: []
+    swiperList: [],
+    // 视频数据
+    videosList: []
   },
 
   /**
@@ -57,12 +59,29 @@ Page({
   },
 
   /**
+   * 获取视频列表数据
+   */
+  getVideosList() {
+    let that = this;
+    wx.request({
+      url: 'https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili/videosList',
+      success(res) {
+        if (res.data.code === 0) {
+          that.setData({
+            videosList: res.data.data.videosList
+          })
+        }
+      }
+    })
+  },
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // 获取首页导航数据
     this.getNavList();
     this.getSwiperList();
+    this.getVideosList();
   },
 
   /**
