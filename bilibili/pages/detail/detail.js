@@ -6,7 +6,8 @@ Page({
    */
   data: {
     // 视频详情
-    videoInfo: null
+    videoInfo: null,
+    othersList: null
   },
 
   /**
@@ -15,6 +16,7 @@ Page({
   onLoad: function (options) {
     let videoId = options.id;
     this.getCurrentVideo(videoId);
+    this.getOthersList(videoId);
   },
 
   /**
@@ -28,6 +30,23 @@ Page({
         if (res.data.code === 0) {
           that.setData({
             videoInfo: res.data.data.videoInfo
+          });
+        }
+      }
+    });
+  },
+
+  /**
+   * 获取推荐视频
+   */
+  getOthersList (videoId) {
+    let that = this;
+    wx.request({
+      url: 'https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili/othersList?id=' + videoId,
+      success (res) {
+        if (res.data.code === 0) {
+          that.setData({
+            othersList: res.data.data.othersList
           });
         }
       }
